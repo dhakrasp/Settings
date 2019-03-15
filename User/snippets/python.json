@@ -1,0 +1,65 @@
+{
+	// Place your snippets for python here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Read file": {
+		"prefix": "read",
+		"body": [
+			"with open(filename, 'r') as file:\n\t"
+		],
+		"description": "Read a file"
+	},
+	"Write file": {
+		"prefix": "write",
+		"body": [
+			"with open(filename, 'w') as file:\n\t"
+		],
+		"description": "Write a file"
+	},
+	"Print newline": {
+		"prefix": "new",
+		"body": [
+			"print('')\n"
+		],
+		"description": "Print newline"
+	},
+	"Exit": {
+		"prefix": "exit",
+		"body": [
+			"exit()\n"
+		],
+		"description": "Exit"
+	},
+	"Enumerate": {
+		"prefix": "enumerate",
+		"body": [
+			"for idx, item in enumerate(sequence):\n\t"
+		],
+		"description": "Enumerate"
+	},
+	"Load pickle": {
+		"prefix": "load",
+		"body": [
+			"with open(test_path, 'r') as file:\n\tdata = pickle.load(file)"
+		],
+		"description": "Load pickle"
+	},
+	"Dump pickle": {
+		"prefix": "dump",
+		"body": [
+			"with open(test_path, 'r') as file:\n\tdata = pickle.dump(obj, file)"
+		],
+		"description": "Dump pickle"
+	}
+
+}

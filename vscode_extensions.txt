@@ -1,0 +1,13 @@
+christian-kohler.path-intellisense
+dunstontc.viml
+emmanuelbeziat.vscode-great-icons
+formulahendry.auto-close-tag
+GrapeCity.gc-excelviewer
+jithurjacob.nbpreviewer
+mikey.vscode-fileheader
+ms-python.python
+ms-vscode.sublime-keybindings
+njpwerner.autodocstring
+stardog-union.stardog-rdf-grammars
+techer.open-in-browser
+vscode-ext.sync-rsync
