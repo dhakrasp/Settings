@@ -198,6 +198,8 @@ alias install='sudo apt install'
 alias e_bashrc='code ~/.bashrc'
 alias src_bashrc='source ~/.bashrc'
 
+export LD_LIBRARY_PATH=/usr/local/cuda-10.0\{$LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}
 
 # Forward search with Ctrl-s
 stty -ixon
