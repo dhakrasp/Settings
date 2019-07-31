@@ -1,26 +1,58 @@
 {
     "workbench.colorTheme": "Monokai",
-    "workbench.iconTheme": "vscode-great-icons",
-    "editor.fontLigatures": true,
-    "terminal.integrated.fontSize": 13,
-    "editor.fontFamily": "\"Fira Code\"",
-    "editor.tabCompletion": "on",
-    "python.linting.pep8Enabled": true,
+    "workbench.editor.focusRecentEditorAfterClose": false,
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "python.linting.lintOnSave": true,
     "python.linting.pep8Args": [
         "--ignore=E501"
+    ],
+    "python.linting.pep8Enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=C0111,C0103,C0301"
     ],
     "python.formatting.autopep8Args": [
         "--ignore=E501"
     ],
-    "python.pythonPath": "/usr/bin/python3",
+    "python.autoComplete.addBrackets": true,
+    "python.pythonPath": "/home/iamplus/python-environments/venv/bin/python",
+    "python.venvPath": "/home/iamplus/python-environments",
     "python.jediEnabled": false,
+    "window.zoomLevel": 0,
+    "window.titleBarStyle": "custom",
+    "scm.diffDecorationsGutterWidth": 5,
     "editor.minimap.enabled": false,
-    "workbench.startupEditor": "newUntitledFile",
     "editor.fontSize": 13,
-    "workbench.editor.enablePreview": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "search.exclude": {
+        "build/**": true,
+        "CLASSIFIER/**": true,
+        "ENTITY_EXTRACTION/**": true,
+        "CONVERSATIONAl/**": true,
+        "venv/**": true
+    },
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "expand",
+    "explorer.autoReveal": false,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "underline",
     "sync-rsync.autoShowOutput": false,
     "sync-rsync.notification": true,
     "sync-rsync.local": "${workspaceRoot}",
-    "sync-rsync.remote": "pranav.dhakras@ada.iiit.ac.in:~/Code/RankingBasedSummarization/code/",
-    "window.titleBarStyle": "custom"
+    "sync-rsync.remote": "pranav@202.73.39.78:64555~/code/",
+    "sync-rsync.shell": "ssh -p 64555 ",
+    "sync-rsync.executableShell":  "/bin/bash",
+    "sync-rsync.exclude": [
+        ".git",
+        ".vscode",
+        "dist",
+        "*.egg-info",
+        "build",
+        ".pytest_cache",
+        "ignore_this",
+        "*/__pycache__/"
+    ]
 }

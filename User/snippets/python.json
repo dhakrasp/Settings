@@ -15,35 +15,35 @@
 	"Read file": {
 		"prefix": "read",
 		"body": [
-			"with open(filename, 'r') as file:\n\t"
+			"with open(filename, 'r') as file:"
 		],
 		"description": "Read a file"
 	},
 	"Write file": {
 		"prefix": "write",
 		"body": [
-			"with open(filename, 'w') as file:\n\t"
+			"with open(filename, 'w') as file:"
 		],
 		"description": "Write a file"
 	},
 	"Print newline": {
 		"prefix": "new",
 		"body": [
-			"print('')\n"
+			"print('')"
 		],
 		"description": "Print newline"
 	},
 	"Exit": {
 		"prefix": "exit",
 		"body": [
-			"exit()\n"
+			"exit()"
 		],
 		"description": "Exit"
 	},
 	"Enumerate": {
 		"prefix": "enumerate",
 		"body": [
-			"for idx, item in enumerate(sequence):\n\t"
+			"for idx, item in enumerate(sequence):"
 		],
 		"description": "Enumerate"
 	},
@@ -60,6 +60,11 @@
 			"with open(test_path, 'r') as file:\n\tdata = pickle.dump(obj, file)"
 		],
 		"description": "Dump pickle"
+	},
+	"OS Walk": {
+		"prefix": "walk",
+		"body": [
+			"for root, _, filenames in os.walk(path):\n\tfor fname in filenames:\n\t\tfile_path = os.path.join(root, fname)"
+		]
 	}
-
 }
