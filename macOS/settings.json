@@ -1,0 +1,70 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.fontSize": 13,
+    "editor.tabCompletion": "on",
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleArgs": [
+        "--ignore=E501"
+    ],
+    "python.formatting.autopep8Args": [
+        "--ignore=E501"
+    ],
+    "python.pythonPath": "~/python-environments/.venv/bin/python3.6",
+    "python.jediEnabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 13,
+    "workbench.editor.enablePreview": false,
+    "window.titleBarStyle": "custom",
+    "sync-rsync.autoShowOutput": true,
+    "sync-rsync.notification": true,
+    "sync-rsync.shell": "ssh -p 64555",
+    "sync-rsync.executableShell": "/bin/bash",
+    "sync-rsync.exclude": [
+        ".git",
+        ".vscode/",
+        "dist/",
+        "*.egg-info/",
+        "build/",
+        "pytest_cache/",
+        "ignore_this/",
+        "__pycache__/"
+    ],
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.zoomLevel": 0,
+    "todo.file.exclude": [
+        "**/.!(todo|todos|task|tasks)/**",
+        "**/_output/**",
+        "**/bower_components/**",
+        "**/build/**",
+        "**/dist/**",
+        "**/node_modules/**",
+        "**/out/**",
+        "**/output/**",
+        "**/release/**",
+        "**/releases/**",
+        "**/static/**",
+        "**/target/**",
+        "**/third_party/**",
+        "**/vendor/**",
+        "**/venv/**"
+    ],
+    "workbench.editor.showTabs": true,
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.folders.color": "#26a69a",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "search.exclude": {
+        "venv/**": true
+    },
+    "files.watcherExclude": {
+        "venv/**": true
+    },
+    "git.autofetch": true
+}
