@@ -46,7 +46,7 @@ alias gstp='git stash pop'
 alias gsta='git stash apply'
 alias gstc='git stash clear'
 
-alias make_venv='virtualenv -p python3.6 venv'
+alias make_venv='virtualenv --system-site-packages -p python3.6 venv'
 alias kernel='ipython kernel install --user --name=venv'
 
 export LD_LIBRARY_PATH=/usr/local/cuda-10.0\:{$LD_LIBRARY_PATH}
