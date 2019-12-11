@@ -9,10 +9,10 @@ set expandtab
 set number
 syntax on
 set mouse=a
-let g:jedi#force_py_version=3
+# let g:jedi#force_py_version=3
 set nocompatible
-execute pathogen#infect()
+# execute pathogen#infect()
 syntax on
 filetype plugin indent on
-colorscheme molokai
-let g:molokai_original = 1
+# colorscheme molokai
+# let g:molokai_original = 1
