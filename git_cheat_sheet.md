@@ -50,6 +50,12 @@
 
 `git branch -d <branch_name>`
 
+## Commits and Pushes
+
+### Stage all modified files for commit
+`git add -u .`
+`git add -u`
+
 ---
 
 ## Other
