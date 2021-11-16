@@ -50,11 +50,6 @@
 
 `git branch -d <branch_name>`
 
-## Commits and Pushes
-
-### Stage all modified files for commit
-`git add -u .`
-`git add -u`
 
 ---
 
@@ -71,3 +66,7 @@
 ### Commit all changes with message
 
 `git commit -am '<message>'`
+
+### Stage all modified files for commit
+`git add -u .`
+`git add -u`
