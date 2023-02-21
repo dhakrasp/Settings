@@ -74,7 +74,6 @@ Commit
 Push
 
 `git push`
-```
 
 ---
 
