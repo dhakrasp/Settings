@@ -50,6 +50,31 @@
 
 `git branch -d <branch_name>`
 
+---
+
+## git lfs
+
+### Initialize
+`git lfs install`
+
+## Pushing a large file
+
+Start tracking a large file using lfs. `.gitattributes` is modified after this point
+
+`git lfs track large_file_name`
+
+Add both to git
+
+`git add large_file_name .gitattributes`
+
+Commit
+
+`git commit -m 'generic commit message'`
+
+Push
+
+`git push`
+```
 
 ---
 
@@ -70,3 +95,4 @@
 ### Stage all modified files for commit
 `git add -u .`
 `git add -u`
+
